@@ -1,0 +1,62 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7fafc;
+    color: #2d3748;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.alert-card {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.alert-headline {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #e53e3e;
+}
+
+.alert-event {
+    font-size: 1.1rem;
+    color: #9b2c2c;
+    margin-top: 0.25rem;
+}
+
+.alert-description {
+    margin-top: 0.75rem;
+    line-height: 1.625;
+}
+
+.alert-severity-extreme {
+    background-color: #fed7d7;
+    border-left: 4px solid #e53e3e;
+}
+
+.alert-severity-severe {
+    background-color: #fef3c7;
+    border-left: 4px solid #dd6b20;
+}
+
+.alert-severity-moderate {
+    background-color: #fff7ed;
+    border-left: 4px solid #f6ad55;
+}
+
+.no-alerts {
+    font-style: italic;
+    color: #718096;
+}
+
+.last-updated {
+    font-size: 0.875rem;
+    color: #718096;
+    margin-top: 1.5rem;
+}
